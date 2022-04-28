@@ -1,0 +1,23 @@
+{
+  "name": "NavPoints",
+  "version": "0.0.1",
+  "description": "jQuery plugin for the navigation on one-page sites.",
+  "main": "navpoints.js",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^4.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vitaliy Gusarev",
+  "license": "MIT"
+}

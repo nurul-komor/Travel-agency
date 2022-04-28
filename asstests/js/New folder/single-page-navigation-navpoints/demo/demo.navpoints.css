@@ -1,0 +1,77 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+}
+
+.container {
+	max-width: 1024px;
+	min-width: 512px;
+	margin: 0 auto;
+	padding: 0 20px;
+	position: relative;
+}
+
+#navigation {
+	width: 100%;
+	height: 50px;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+}
+
+#navigation a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 15px 16px;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+#navigation a:hover {
+	background-color: #ddd;
+	color: #000;
+}
+
+.active {
+	background-color: #4caf50;
+	color: #fff;
+}
+
+#header-page {
+	margin-top: 80px;
+	text-align: center;
+}
+
+section {
+	margin: 25px;
+	padding: 15px;
+	border-bottom: 1px solid #ddd;
+}
+
+footer {
+	text-align: center;
+	padding-bottom: 15px;
+	color: #696969;
+	font-style: italic;
+	font-size: 16px;
+}
+
+footer a {
+	color: #487281;
+	text-decoration: none;
+	fill: currentColor;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
