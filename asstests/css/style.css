@@ -104,6 +104,10 @@ a:hover {
     top: 0;
 }
 
+.navigation-bar.sticky {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
 #navbar {
     display: flex;
     justify-content: space-between;
@@ -311,6 +315,18 @@ a:hover {
     height: 420px;
     background-color: var(--placeholder);
     position: relative;
+}
+
+.about-section .col-md-4:nth-child(1) .about-image {
+    background-image: url(../images/man-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-section .col-md-4:nth-child(2) .about-image {
+    background-image: url(../images/man-2.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .about-image .image-text {

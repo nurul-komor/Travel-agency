@@ -1,3 +1,7 @@
+const navbar = document.querySelector(".navigation-bar");
+window.onscroll = () => {
+    this.scrollY > 50 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky")
+}
 $(document).ready(function() {
     $(".menu-btn").click(function() {
         $(".nav-right").toggleClass("show");

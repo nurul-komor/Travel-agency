@@ -14,14 +14,17 @@
         background-color: #fff;
         z-index: 100;
         transition: all 0.3s;
-        display: none;
+        visibility: hidden;
+        opacity: 0;
         align-items: center;
+        display: grid;
+        place-content: center;
     }
     .nav-right.show {
         bottom: 0;
         transition: all 0.3s;
-        display: grid;
-        place-content: center;
+        visibility: visible;
+        opacity: 1;
     }
     .nav-right a {
         display: block;
