@@ -30,8 +30,13 @@ $(document).ready(function() {
         });
     }
     $("button.show-all").click(function() {
-        $(".grid").toggleClass("show");
+        $(".grid").addClass("show");
+        $("button.show-all").addClass("hide");
     });
+
+
+
+
     $(".client-section.owl-carousel").owlCarousel({
         items: 5,
         loop: true,
@@ -64,3 +69,8 @@ $(document).ready(function() {
         );
     });
 })
+
+// wow js 
+new WOW().init();
+// aos 
+AOS.init();

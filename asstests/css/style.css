@@ -289,6 +289,12 @@ a:hover {
     display: flex;
     border: none;
     outline: none;
+    transition: 0.5s ease;
+}
+
+.showcase>button.show-all.hide {
+    visibility: hidden;
+    transition: 0.5s ease;
 }
 
 
